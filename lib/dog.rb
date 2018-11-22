@@ -10,6 +10,7 @@ class Dog
     @@all.map do |dog| 
       puts |dog|
     end
+    end
   end
   
   def clear_all 

@@ -10,7 +10,7 @@ class Dog
   end
   
   def self.all 
-    @@all.map { |dog| dog }
+    @@all.map { |dog| dog\n }
   end
   
   def self.clear_all 
